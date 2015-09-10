@@ -14,7 +14,7 @@ qsort = (arr) ->
 	less = arguments.callee less
 	great = arguments.callee great
 	
-	less.push pivot
+	#less.push pivot
 	Array.prototype.push.apply less, great
 	
 	return less
